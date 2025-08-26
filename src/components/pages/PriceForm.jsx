@@ -76,7 +76,7 @@ function PriceForm() {
         <h1 className="mt-5 mb-4 font-bold text-2xl">
           Take the first step toward NEPRA compliance today.
         </h1>
-        <form onSubmit={handleSubmit} className="grid grid-cols-4 gap-3 w-full max-w-4xl">
+        <form onSubmit={handleSubmit} className="grid grid-cols-4 gap-3 w-full lg:max-w-4xl">
          
           <div className="col-span-4 flex flex-col">
             <input
@@ -91,7 +91,7 @@ function PriceForm() {
           </div>
 
     
-          <div className="col-span-2 flex flex-col">
+          <div className="lg:col-span-2 col-span-4 flex flex-col">
             <input
               type="email"
               name="email"
@@ -104,7 +104,7 @@ function PriceForm() {
           </div>
 
      
-          <div className="col-span-2 flex flex-col">
+          <div className="lg:col-span-2 col-span-4 flex flex-col">
             <input
               type="tel"
               name="phone"
@@ -117,7 +117,7 @@ function PriceForm() {
           </div>
 
      
-          <div className="col-span-2 flex flex-col">
+          <div className="lg:col-span-2 col-span-4 flex flex-col">
             <input
               type="text"
               name="company"
@@ -130,7 +130,7 @@ function PriceForm() {
           </div>
 
           
-          <div className="col-span-2 flex flex-col">
+          <div className="lg:col-span-2 col-span-4 flex flex-col">
             <input
               type="text"
               name="job"
@@ -148,7 +148,7 @@ function PriceForm() {
           </label>
 
       
-          <div className="col-span-2 flex flex-col">
+          <div className="lg:col-span-2 col-span-4 flex flex-col">
             <input
               type="date"
               name="date"
@@ -160,7 +160,7 @@ function PriceForm() {
             {error.date && <div className="text-red-600 text-sm mt-1">{error.date}</div>}
           </div>
 
-          <div className="col-span-2 flex flex-col">
+          <div className="lg:col-span-2 col-span-4 flex flex-col">
             <input
               type="time"
               name="time"

@@ -8,7 +8,7 @@ import data from '../../data';
 function Home() {
   return (
     <>
-      <Hero />
+      <Hero  />
       <ServiceSection items={data} />
      
     </>

@@ -4,8 +4,8 @@ import { IoMdArrowDropright } from "react-icons/io";
 function Footer({items}) {
   return (
     <>
-    <div className='bg-blue-950 text-white w-full flex flex-col pt-10 pb-4 px-20'>
-        <div className='flex flex-row'>
+    <div className='bg-blue-950 text-white w-full flex flex-col pt-10 pb-4 px-4 lg:px-20'>
+        <div className='flex flex-col lg:flex-row'>
         <div className='w-1/2'> 
             <img 
           src="https://nepra.spsnet.com/assets/images/logo-white.png" 
@@ -17,15 +17,15 @@ function Footer({items}) {
         </p>
     </div>
 
-     <div className='w-1/2'>
+     <div className='w-full lg:w-1/2'>
      <h1 className='font-semibold text-xl pb-4 '>Services</h1>
      {items.map((item) => (
 
     
      <div key={item.id}>
 
-    <button className='flex items-center w-full hover:text-blue-600 text-base font-serif font-extralight'>
-     <IoMdArrowDropright className=' w-8 h-6' />  {item.title}
+    <button className='flex lg:items-center w-full hover:text-blue-600 lg:text-base font-serif font-extralight text-sm'>
+     <IoMdArrowDropright className='lg:w-8 lg:h-6' />  {item.title}
     </button>
      </div>
       ))}

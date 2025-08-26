@@ -11,8 +11,8 @@ function ServiceSection({items}) {
     
   return (
 
-    <div className='px-20 py-20 flex bg-white'>
-       <div className='w-1/2 space-y-4'>
+    <div className='px-4 lg:px-20 lg:py-20 pt-7  flex flex-col lg:flex-row justify-center items-center bg-white '>
+       <div className='lg:w-1/2 space-y-4  max-w-lg'>
      
         {items.map((item) => (
         
@@ -28,7 +28,7 @@ function ServiceSection({items}) {
            
              ))} </div>
             
-             <div className='w-1/2 px-6'>
+             <div className='lg:w-1/2 lg:px-6 max-w-lg pt-7 pb-7'>
             <h1 className='font-semibold text-lg text-gray-800 pb-2'>{setItem.title}</h1> 
 <p className='text-gray-900'>
 {setItem.detail}

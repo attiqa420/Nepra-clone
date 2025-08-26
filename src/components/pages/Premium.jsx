@@ -4,8 +4,8 @@ import PriceForm from './PriceForm'
 function Premium() {
   return (
    <>
-    <div className='pt-28 px-20 py-20 grid grid-cols-2 gap-6'>
-        <div>
+    <div className='pt-28 px-4 lg:px-20 py-20 grid grid-cols-2 gap-6'>
+        <div className='lg:col-span-1 col-span-2'>
 <h1 className='font-bold text-2xl pb-4'>What’s Included in the Premium Service?</h1>
 <h2 className='font-semibold text-lg pb-2'>Bespoke Compliance Support</h2>
 <p className='text-base text-gray-800 pb-3'>Our expert NEPRA compliance consultant will meet with your team once a month to assess your organization's current compliance status.</p>
@@ -21,7 +21,7 @@ function Premium() {
     </ul>
 
         </div>
-        <div>
+        <div className='lg:col-span-1 col-span-2'>
                <PriceForm />
         </div>
     </div>

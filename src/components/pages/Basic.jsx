@@ -5,8 +5,8 @@ import PriceForm from './PriceForm'
 function Basic() {
   return (
     <>
-    <div className='pt-28 px-20 py-20 grid grid-cols-2 gap-6'>
-        <div className='col-span-1'>
+    <div className='pt-28 px-4 lg:px-20 py-20 grid grid-cols-2 gap-6'>
+        <div className='lg:col-span-1 col-span-2'>
 <h1 className='font-bold text-2xl pb-4'>What’s Included in the Basic Service?</h1>
 <h2 className='font-semibold text-lg pb-2'>Monthly NEPRA Compliance Assessment</h2>
 <p className='text-base text-gray-800 pb-3'>Our expert NEPRA compliance consultant will meet with your team once a month to assess your organization's current compliance status.</p>
@@ -22,7 +22,7 @@ function Basic() {
     </ul>
 
         </div>
-        <div className='col-span-1'>
+        <div className='lg:col-span-1 col-span-2'>
                <PriceForm />
         </div>
     </div>

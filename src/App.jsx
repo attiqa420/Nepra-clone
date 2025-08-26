@@ -12,7 +12,7 @@ import data from './data';
 
 function App() {
   return (
-   <>
+   <div className="w-full overflow-x-hidden">
     <NavBar />
 
     <Routes>
@@ -24,7 +24,7 @@ function App() {
  <Footer items={data} />
       
       
-    </>
+    </div>
    
   );
 }
