@@ -4,7 +4,7 @@ import PlanCard from './PlanCard';
 function Hero() {
   return (
     <div className="bg-blue-950 w-full overflow-hidden">
-      <div className="container mx-auto flex flex-col lg:flex-row items-center justify-between px-4 sm:px-10 lg:px-20 py-4 pt-28">
+      <div className="container mx-auto flex flex-col lg:flex-row items-center justify-between px-4 sm:px-10 lg:px-10 py-4 pt-28">
         <div className="pb-6 max-w-2xl">
           <h1 className="text-white font-semibold text-4xl">
             NEPRA Compliance as a Service
