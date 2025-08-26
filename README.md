@@ -6,6 +6,7 @@ This is a clone of the NEPRA (National Electric Power Regulatory Authority) webs
 
 - A static website replicating the NEPRA official website’s design and layout.
 - Built using modern web technologies ( React/Vite, Tailwind Css).
+- Respponsive 
 
 
 ## Features
